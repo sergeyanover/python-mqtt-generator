@@ -13,6 +13,6 @@ You should create docker image and run it with your settings in pythonmqtt.ini :
 
     docker run --rm -it --hostname rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
-http://<your IP address>:15672
+http://serverIPaddress:15672
 login: guest
 password: guest
